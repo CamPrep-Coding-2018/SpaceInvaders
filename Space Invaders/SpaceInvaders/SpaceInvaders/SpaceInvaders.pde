@@ -2,7 +2,7 @@ float diff = 3;
 int rows = 5;
 int cols = 9; 
 int count = 0; 
-int pcount = 0;
+int pcount;
 boolean move; 
 boolean leftright; 
 ArrayList<Integer> time = new ArrayList<Integer>(); 
