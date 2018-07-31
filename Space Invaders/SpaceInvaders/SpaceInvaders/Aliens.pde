@@ -81,7 +81,7 @@ class Alien {
     boolean shoots = false;
     float multi = (diff < 0) ? 0 : diff;
 
-    if (isAlive && random(1) < 0.0002 + multi * 0.00025) {
+    if (isAlive && random(1) < 0.0003 + multi * 0.00025) {
       shoots = true;
     }
 
